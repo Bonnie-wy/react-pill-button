@@ -1,0 +1,35 @@
+.pill {
+  padding: 10px 15px;
+  border: 1px solid rgb(104, 187, 255);
+  border-radius: 20px;
+  background-color: transparent;
+  width: fit-content;
+  color: rgb(104, 187, 255);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.pill.active {
+  background-color: rgb(104, 187, 255);
+  color: #fff;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.pill .icon.plus:after {
+  content: " \002B";
+}
+
+.pill .icon.checked:after {
+  content: " \2713";
+}
